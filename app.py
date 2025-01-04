@@ -10,7 +10,7 @@ import time
 from typing import Dict, List, Optional
 
 
-groq_client = Groq(api_key="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")
+groq_client = Groq(api_key="groq_api_key")
 
 
 if 'analyses' not in st.session_state:
